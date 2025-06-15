@@ -1,0 +1,81 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white; /* 60% wit */
+            color: #333;
+        }
+
+        .heading {
+            background-color: #1e3a8a; /* 30% blauw */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 500px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        input[type="text"],
+        input[type="date"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            background-color: #dc2626; /* 10% rood */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b91c1c;
+        }
+
+        .feedback {
+            text-align: center;
+            color: #16a34a;
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 500px;
+            margin: 20px auto;
+        }
+
+        li {
+            background-color: #e0e7ff; /* lichtblauw */
+            border-left: 5px solid #1e3a8a; /* blauw */
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        a {
+            color: #dc2626;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .logout {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
